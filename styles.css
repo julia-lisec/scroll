@@ -1,12 +1,12 @@
 /*
-=============== 
+===============
 Fonts
 ===============
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -55,7 +55,7 @@ Variables
   --fixed-width: 620px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -189,7 +189,7 @@ main {
   place-items: center;
 }
 /*
-=============== 
+===============
 Scroll
 ===============
 */
@@ -228,6 +228,7 @@ nav {
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
+  outline: none;
 }
 .nav-toggle:hover {
   color: var(--clr-secondary);
