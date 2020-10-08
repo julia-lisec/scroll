@@ -197,6 +197,7 @@ Scroll
 nav {
   background: var(--clr-white);
   padding: 1rem 1.5rem;
+  transition: var(--transition);
 }
 /* fixed nav */
 .fixed-nav {
@@ -206,6 +207,7 @@ nav {
   width: 100%;
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
+  transition: var(--transition);
 }
 .fixed-nav .links a {
   color: var(--clr-grey-1);
@@ -258,9 +260,11 @@ nav {
 .links a:hover {
   color: var(--clr-grey-1);
 }
+
 @media screen and (min-width: 800px) {
   nav {
     background: transparent;
+    position: fixed;
   }
   .nav-center {
     width: 90vw;
