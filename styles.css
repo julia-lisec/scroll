@@ -153,6 +153,7 @@ p {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
+  outline: none;
 }
 .btn:hover {
   color: var(--clr-white);
@@ -369,11 +370,19 @@ footer p {
   place-items: center;
   border-radius: var(--radius);
   color: var(--clr-white);
-  animation: bounce 2s ease-in-out infinite;
+  /* animation: bounce 2s ease-in-out infinite; */
 
   visibility: hidden;
   z-index: -100;
 }
+
+.top-link:hover {
+  color: var(--clr-secondary);
+  background: transparent;
+  border: 2px solid var(--clr-secondary);
+  transition: var(--transition);
+}
+
 .show-link {
   visibility: visible;
   z-index: 100;
